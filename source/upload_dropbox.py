@@ -12,6 +12,7 @@ class TransferData:
         with open(file_from, 'rb') as f:
             dbx.files_upload(f.read(), file_to)
 
+
 def main():
     access_token = 'FCDpb2HE8A4AAAAAAAAHBryb4Rch0IxFTI4BpztmYsCFDO5hhw9UYiGThd-vLt9i'
     transferData = TransferData(access_token)

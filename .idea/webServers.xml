@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4b82d1db-4091-4001-b127-bfacc683f2f9" name="Pi_deploy" url="http://192.168.0.100">
+        <fileTransfer host="192.168.0.100" port="22" rootFolder="/home/pi/FridgeAndLight" accessType="SFTP" password="dfcbdfd9dfc2" username="pi">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

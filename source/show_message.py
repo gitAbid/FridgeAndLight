@@ -1,10 +1,5 @@
 import Tkinter
 import tkMessageBox
 
-top = Tkinter.Tk()
-
-def done():
-    pass
-
 def show():
-    b = Tkinter.Button(top, text='Say Hello', command=done)
+    tkMessageBox.showinfo('Uploader', 'Image has been uploaded')

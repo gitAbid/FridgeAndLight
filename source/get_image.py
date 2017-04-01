@@ -1,2 +1,2 @@
 def get_image_path():
-    return '../img/image.jpg'
+    return '/home/pi/FridgeAndLight/img/image.jpg'

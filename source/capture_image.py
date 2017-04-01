@@ -1,7 +1,6 @@
-import sys
 import os
-import subprocess
 
 
 def capture_image():
-    capture = subprocess.Popen('fswebcam ../img/image.jpg')
+    capture = os.system('fswebcam /home/pi/FridgeAndLight/img/image.jpg')
+

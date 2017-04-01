@@ -1,5 +1,7 @@
 import sys
+import os
+import subprocess
 
 
 def capture_image():
-    pass
+    capture = subprocess.Popen('fswebcam ../img/image.jpg')

@@ -14,7 +14,7 @@ class TransferData:
 
 
 def main():
-    access_token = 'FCDpb2HE8A4AAAAAAAAHBryb4Rch0IxFTI4BpztmYsCFDO5hhw9UYiGThd-vLt9i'
+    access_token = 'LdzF6aMvRFAAAAAAAAAAM0hZkeK837kRtPZDYdQy1tMSWE3-xfaKvYlAugeEQBi-'
     transferData = TransferData(access_token)
 
     file_from = '../test_files/data.txt'

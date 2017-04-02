@@ -8,9 +8,9 @@ from capture_image import capture_image
 capture_image()
 image_path = get_image_path()
 
-time_str = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+time_str = strftime("%Y-%m-%d-%H-%M-%S", gmtime())
 
-upload_path = '/FridgeAndLight/Image at {}.jpg'.format(time_str)
+upload_path = '/Photos/{}.jpg'.format(time_str)
 
 token = Token()
 access_token = token.get_access_token()

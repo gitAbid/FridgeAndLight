@@ -1,1 +1,1 @@
-python "../source/app.py"
+python "../source/start_app.py"

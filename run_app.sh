@@ -1,0 +1,1 @@
+python "/home/pi/FridgeAndLight/source/start_app.py"

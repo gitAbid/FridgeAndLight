@@ -14,11 +14,11 @@ class TransferData:
 
 
 def main():
-    access_token = 'LdzF6aMvRFAAAAAAAAAAM0hZkeK837kRtPZDYdQy1tMSWE3-xfaKvYlAugeEQBi-'
+    access_token = 'LdzF6aMvRFAAAAAAAAAAKraQYKh0Co-9FCXbnRzZoQCqwSsA3Z83fM-Zi3USSpPs'
     transferData = TransferData(access_token)
 
     file_from = '../test_files/data.txt'
-    file_to = '/FridgeAndLight/data.txt'  # The full path to upload the file to, including the file name
+    file_to = '/FridgeandLight/data.txt'  # The full path to upload the file to, including the file name
 
     # API v2
     transferData.upload_file(file_from, file_to)
